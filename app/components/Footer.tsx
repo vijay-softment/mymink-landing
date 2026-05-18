@@ -91,7 +91,7 @@ export default function Footer() {
             {/* Download Buttons */}
             <div className="flex flex-col gap-3">
               <a
-                href="https://apps.apple.com"
+                href="https://apps.apple.com/in/app/my-mink/id6448769013"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => analytics.downloadAppStore("footer")}
@@ -109,7 +109,7 @@ export default function Footer() {
                 </span>
               </a>
               <a
-                href="https://play.google.com"
+                href="https://play.google.com/store/apps/details?id=com.softment.mymink"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => analytics.downloadGooglePlay("footer")}
@@ -188,6 +188,14 @@ export default function Footer() {
                   className="text-base text-gray-400 hover:text-white transition-colors"
                 >
                   Account Deletion
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/child-safety-policy"
+                  className="text-base text-gray-400 hover:text-white transition-colors"
+                >
+                  Child Safety Policy
                 </Link>
               </li>
               <li>

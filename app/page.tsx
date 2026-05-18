@@ -82,7 +82,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
                 <Button
-                  href="https://apps.apple.com"
+                  href="https://apps.apple.com/in/app/my-mink/id6448769013"
                   variant="primary"
                   size="lg"
                   className="w-full sm:w-auto"
@@ -92,7 +92,7 @@ export default function Home() {
                   Download on App Store
                 </Button>
                 <Button
-                  href="https://play.google.com"
+                  href="https://play.google.com/store/apps/details?id=com.softment.mymink"
                   variant="secondary"
                   size="lg"
                   className="w-full sm:w-auto"

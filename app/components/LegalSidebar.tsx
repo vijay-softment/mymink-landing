@@ -16,6 +16,7 @@ export default function LegalSidebar() {
   const policyLinks = [
     { href: "/refunds", label: "Refund Policy" },
     { href: "/account-deletion", label: "Account Deletion" },
+    { href: "/child-safety-policy", label: "Child Safety Policy" },
     { href: "/disclaimer", label: "Disclaimer" },
     { href: "/data-retention", label: "Data Retention & Deletion Policy" },
     { href: "/gdpr", label: "GDPR Compliance" },
